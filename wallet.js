@@ -33,7 +33,7 @@ const paymentTxn = new PaymentV1({
 // an appropriate transaction fee is calculated at initialization
 console.log('transaction fee is:', paymentTxn.fee)
 
-// sign the payment txn with bob's keypair[链接]#周星驰开ins招募人才# 周星驰在ins开通首个社交账号，并发布人才招募令，在漆黑中找寻鲜明出众的Web3人才，“助我建造创意未来”，星爷还表示会亲自拣人。#周星驰首个社交账号# ​
+// sign the payment txn with bob's keypair
 const signedPaymentTxn = await paymentTxn.sign({ payer: bob })
 
 // submit the serialized txn to the Blockchain HTTP API
