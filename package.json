@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "@helium/crypto": "^4.6.2",
+    "@helium/http": "^4.7.4",
+    "@helium/transactions": "^4.7.5",
+    "bip39": "^3.0.4"
+  },
+  "type": "module"
+}
